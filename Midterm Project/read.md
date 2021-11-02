@@ -8,9 +8,9 @@ Models used
 
 I used three tree-based regression models to select the best model for the prediction process:
 
-✅ Linear Regression
-✅ RandomForest
-✅ XGBoost
+- ✅ Linear Regression
+- ✅ RandomForest
+- ✅ XGBoost
 
 Finally, XGBOOST model wins with RMSE of 0.8720874293273928
 
@@ -24,7 +24,7 @@ Problems i faced
 
 - When i started to read the dataset, i had an error " 'utf-8' codec can't decode byte 0xd2 in position 7431: invalid continuation byte". I googled it and i found that it is "Unicode Decode Error". I solved by adding the encoding as follows:
 
-df = pd.read_csv('https://raw.githubusercontent.com/gialkady/ml_zoomcamp/Homeworks/Midterm%20Project/Data/NetflixOriginals.csv', encoding='latin-1') 
+  df = pd.read_csv('https://raw.githubusercontent.com/gialkady/ml_zoomcamp/Homeworks/Midterm%20Project/Data/NetflixOriginals.csv', encoding='latin-1') 
 
 - typeerror: ('expecting data to be a dmatrix object, got: ', <class 'numpy.ndarray'>) , this error appears when i loaded the xgboost model.
 
