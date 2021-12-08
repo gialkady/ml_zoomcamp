@@ -178,8 +178,4 @@ docker push agrigorev/zoomcamp-cats-dogs-lambda:v2
 ```
 
 
-## Nagivation
 
-* [Machine Learning Zoomcamp course](../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [Explore more](09-explore-more.md)
