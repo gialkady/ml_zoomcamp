@@ -41,7 +41,7 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 
 Most of the dataset problems can be solved through applying "Image augmentation".
 
-![img] (https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/Screen%20Shot%202021-12-13%20at%2010.57.25%20PM.png)
+![img](https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/Screen%20Shot%202021-12-13%20at%2010.57.25%20PM.png)
 
 ## 
 
