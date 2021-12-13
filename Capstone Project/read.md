@@ -30,7 +30,10 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 **test.txt** contains the list of images that belong to test set  
 **classes.txt** contains the list of all classes of food
 
-**Problems in dataset**
+## Exploratory data analysis (EDA)
+  
+
+After downloading the dataset, i explored the folders and load some random images of the dataset to test the dataset problems. As a result, i recognized the following problems:
 
 - Small amount of training data for each class
 - Many classes look similar to each other (steak vs filet mignon)
@@ -39,15 +42,58 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 - Number of mislabeled images.
 - Image shapes vary within class
 
-Most of the dataset problems can be solved through applying "Image augmentation".
+Most of the dataset problems can be solved through applying "Image augmentation". 
 
-![img](https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/Screen%20Shot%202021-12-13%20at%2010.57.25%20PM.png)
+## Data preparation
 
-## 
+Food-101 Dataset contains 101,000 images across 101 classes. The dataset is split into 75,750 training and 25,250 test images which defined by test.json and train.json. The original download has the train and test images in the same folders. Here we separate out train and test images into different directories.
 
+train ='./food-101/meta/train.txt'
 
+test ='./food-101/meta/test.txt'
 
+Check EDA and Data preparation notebook(https://github.com/gialkady/ml_zoomcamp/tree/Homeworks/Capstone%20Project)
 
+## Models training 
 
+Three models are trained through which we will choose the best model to use for our application which are:
 
+✅ **Xception** 
+✅ **InceptionV3** 
+✅ **DenseNet121**
 
+The transfer learning is applied and the convolutional layers only kept in each model.The best model is used based on the best performance of the model seen from accuracy score of the validation data for each trained model by using checkpointer to save best model.
+
+Check Models training ➡️ (https://github.com/gialkady/ml_zoomcamp/tree/Homeworks/Capstone%20Project/Models%20Training)
+
+## Local Deployment
+
+Tools: mac laptop, pycharm and anaconda3
+
+After the final model is obtained, apply the next steps:
+- Convert notebook into .py file -> train.py
+- Put all required files (ex. model_trained_101class.tflite)
+- Make a virtual enviroment for deep learning includig (python 3.7.11, tensorflow, tflite 2.4.0, tflite-runtime 2.5.0, keras-image helper)
+- Open terminal in project folder and test file without docker -> python3 train.py
+- Download docker in terminal or if you mac user download "docker for mac".
+- Build docker image (write all dependencies needed to run model) -> 'Docker build -t food_classification .'
+- Run model in the docker container in terminal 
+- Test response file
+
+For more details ➡️ ()
+
+## Cloud Deployment 
+
+- Open AWS console -> lambda -> container image
+- Publish container image in Amason ECR (Elastic Container Registry):
+    - pip install awscli
+    - create repistory in Amason ECR
+    - Push Docker image to repo in AWS 
+- Create function for container image in AWS
+- Test model in AWS repo
+- Expose the lambda function via API Gateway
+- Finally, you will have a public endpoint url through which the model can be tested. 
+
+![img] ()     
+
+For more details ➡️ ()
