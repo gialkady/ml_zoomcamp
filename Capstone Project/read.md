@@ -30,6 +30,17 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 **test.txt** contains the list of images that belong to test set  
 **classes.txt** contains the list of all classes of food
 
+**Problems in dataset
+
+- Small amount of training data for each class
+- Many classes look similar to each other (steak vs filet mignon)
+- Many images in the dataset have poor lighting or framing.
+- Several images contain multiple correct classes (ex burgers & fries)
+- Number of mislabeled images.
+- Image shapes vary within class
+
+
+## 
 
 
 
