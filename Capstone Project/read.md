@@ -30,7 +30,7 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 **test.txt** contains the list of images that belong to test set  
 **classes.txt** contains the list of all classes of food
 
-**Problems in dataset
+**Problems in dataset**
 
 - Small amount of training data for each class
 - Many classes look similar to each other (steak vs filet mignon)
@@ -39,6 +39,9 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 - Number of mislabeled images.
 - Image shapes vary within class
 
+Most of the dataset problems can be solved through applying "Image augmentation".
+
+![img] (https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/Screen%20Shot%202021-12-13%20at%2010.57.25%20PM.png)
 
 ## 
 
