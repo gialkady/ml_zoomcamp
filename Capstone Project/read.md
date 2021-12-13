@@ -1,6 +1,5 @@
-## Best restaurant to serve 
-
-                  ![img](https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/istockphoto-531306158-612x612.jpeg)
+## Best restaurant to serve
+![img](https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/istockphoto-531306158-612x612.jpeg)
 
 
 ## overview 
