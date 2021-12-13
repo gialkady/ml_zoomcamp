@@ -19,5 +19,12 @@ In this project, we tried to make your dreams come true. The idea is a web servi
 
 ![img](https://github.com/gialkady/ml_zoomcamp/blob/Homeworks/Capstone%20Project/images/Best%20Restaurant%20to%20serve.png)
 
+## Dataset
+
+The dataset used in this project is Food-101 dataset (https://www.kaggle.com/kmader/food41)
+
+
+
+
 
 
