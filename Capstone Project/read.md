@@ -11,7 +11,7 @@ This project is done as part of the Machine Learning course held by Alexey Grigo
 
 How many times you saw a food image on the internet and you feel that you want to eat it NOW 🤩 😉  
 
-In this project, we tried to make your dreams come true. The idea is a web service that help people to know the best restaurant to serve the food dish on an image on their city. 
+In this project, we tried to make your dreams come true. The idea is a web service that helps people to know the best restaurant to serve the food dish on an image on their city. 
 
 - Firstly, the user upload the food image
 - ML engine based on deep learning will classify the image (food class). 
@@ -33,7 +33,7 @@ Food-101 is a dataset consisting of 101 food classes with 1000 images per class.
 ## Exploratory data analysis (EDA)
   
 
-After downloading the dataset, i explored the folders and load some random images of the dataset to test the dataset problems. As a result, i recognized the following problems:
+After downloading the dataset, i explored the folders and loaded some random images of the dataset to test the dataset problems. As a result, i recognized the following problems:
 
 - Small amount of training data for each class
 - Many classes look similar to each other (steak vs filet mignon)
