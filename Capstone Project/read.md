@@ -52,7 +52,7 @@ train ='./food-101/meta/train.txt'
 
 test ='./food-101/meta/test.txt'
 
-Check EDA and Data preparation notebook(https://github.com/gialkady/ml_zoomcamp/tree/Homeworks/Capstone%20Project)
+Check EDA and Data preparation notebook ➡️ (https://github.com/gialkady/ml_zoomcamp/tree/Homeworks/Capstone%20Project)
 
 ## Models training 
 
@@ -93,7 +93,5 @@ For more details ➡️ ()
 - Test model in AWS repo
 - Expose the lambda function via API Gateway
 - Finally, you will have a public endpoint url through which the model can be tested. 
-
-![img] ()     
-
+     
 For more details ➡️ ()
