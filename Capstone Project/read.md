@@ -13,7 +13,7 @@ How many times you saw a food image on the internet and you feel that you want t
 
 In this project, we tried to make your dreams come true. The idea is a web service that helps people to know the best restaurant to serve the food dish on an image on their city. 
 
-- Firstly, the user upload the food image
+- Firstly, the user upload the food image url.
 - ML engine based on deep learning will classify the image (food class). 
 - According to the class of food, the system will response with the name of the best restaurant to serve the dish in the user's city.
 
